@@ -44,6 +44,7 @@ services:
             - CORE_PEER_ADDRESS=peer1.org2.example.com:7051
             - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer1.org2.example.com:7051
             - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.org2.example.com:7051
+            - CORE_PEER_GOSSIP_ENDPOINT=peer0.org2.example.com:7051
             - CORE_PEER_LOCALMSPID=Org2MSP
         extra_hosts:
             - "orderer0.example.com:${NODE1}"

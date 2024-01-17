@@ -72,7 +72,7 @@ Application: &ApplicationDefaults
         <<: *ApplicationCapabilities
 
 Orderer: &OrdererDefaults
-    OrdererType: kafka
+    OrdererType: etcdraft
     Addresses:
         - orderer0.example.com:7050
         - orderer1.example.com:7050
