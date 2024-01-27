@@ -89,7 +89,7 @@ services:
             - "peer1.org1.example.com:${NODE2}"
             - "peer0.org2.example.com:${NODE3}"
             - "peer1.org2.example.com:${NODE4}"
-        depends_on:
+        # depends_on:
             # - zookeeper0
             # - kafka0
         volumes:
